@@ -1,0 +1,130 @@
+
+
+
+/* Top er kaj */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+/* banner er kaj */
+.banner-title{
+    text-align: center;
+}
+.btn{
+   margin-left: 45%;
+   padding: 15px;
+   background-color: chocolate;
+   border-style: none;
+   border-radius: 3px;
+}
+
+.sobi{
+   margin-left: 130px;
+   margin-top: 20px;
+  
+}
+/* team 4ta img */
+.team{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   width: 40%;
+   margin-left: 130px;
+   grid-row-gap: 20px;
+   margin-top: 20px;
+}  
+.teams{
+ display: flex;
+}
+.feature{
+   width: 30%;
+   margin-top: 100px;
+}
+.f-likha{
+    color: yellow ;
+}
+.q-likha{
+    color:gray;
+}
+/* 4rth part */
+.love{
+    display: flex;
+    margin-top: 20px;
+}
+.enjoy{
+    width: 50%;
+    margin-top: 70px;
+}
+.border{
+    border: 2px solid gray;
+    border-style: none;
+   
+}
+.borders{
+  margin-left: 90px;
+}
+.head-l{
+    margin-left: 10px;
+}
+#vertical{
+    width: 4px;
+    height: 80px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.line{
+    display: flex;
+}
+.sec-btn{
+    padding: 30px;
+    background-color:orange;
+    position: absolute;
+    margin-left: 50%;
+    border-style: none;
+    border-radius: 5px;
+}
+/* some facts section */
+.facts{
+     margin-top: 100px;
+   display: flex;
+   margin-left: 200px;
+   gap: 80px;
+  
+}
+.fact{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 30%;
+    text-align: center;
+}
+.facts-one,.facts-two,.facts-three,.facts-four{
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+/* sponcer section */
+.our{
+    margin-left: 300px;
+   text-align: center;
+    width: 50%;
+    margin-top: 40px;
+}
+.sponcers{
+    display: flex;
+    margin-left: 100px;
+    gap: 30px;
+    margin-top: 40px;
+}
+/* last */
+.footer{
+    text-align: center;
+     margin-top: 100px;
+}

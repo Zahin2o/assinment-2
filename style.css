@@ -128,10 +128,15 @@ ul{
     border: 1px solid #FF900E;
     padding: 10px;
     border-radius: 4px;
+    text-align: center;
 
 }
 .facts-one:hover,.facts-two:hover,.facts-three:hover,.facts-four:hover{
-    transform:rotate(30deg)
+    transform:rotate(30deg);
+    
+    
+      
+
     
 }
 

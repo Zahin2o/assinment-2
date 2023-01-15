@@ -9,8 +9,9 @@
 
 /* Top er kaj */
 .header{
-    background-color: antiquewhite;
+    background-color: bisque;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,7 @@ ul{
     text-align: center;
 }
 .btn{
-   margin-left: 45%;
+   margin-left: 10px;
    padding: 15px;
    background: #FF900E;
    border-style: none;
@@ -37,6 +38,7 @@ ul{
 .sobi{
    margin-left: 130px;
    margin-top: 20px;
+  
   
 }
 /* team 4ta img */
@@ -136,9 +138,8 @@ ul{
 }
 .sponcers{
     display: flex;
-    margin-left: 100px;
+    margin-left: 120px;
     gap: 30px;
-    margin-top: 40px;
     
 }
 /* last */
@@ -146,3 +147,118 @@ ul{
     text-align: center;
      margin-top: 100px;
 }
+
+ 
+/* mobile device responsive */
+@media screen and (max-width:576px) {
+    nav{
+        
+        justify-content:center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    ul{
+        list-style: none;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+}
+/* 2nd part */
+@media screen and (max-width:576px) {
+    .btn{
+        margin-left:120px;
+        text-align: center;
+        
+       
+     }
+    .brand img{
+        margin-left: 30px;
+        margin-top: 7px;
+        width: 80vw;
+
+    }
+}
+    
+    
+    
+
+/* 3rd part */
+@media screen and (max-width:576px) {
+    .team{
+        display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+      margin-left:50px;    
+    } 
+    .teams{
+       flex-direction: column;
+       
+       }   
+       .feature{
+        width: 50%;
+       } 
+}
+/* 4rth part */
+
+@media screen and (max-width:576px) 
+{
+    .love{
+        flex-direction: column;
+    }
+    .love img{
+        width: 90vw;
+    }
+    .borders{
+        width: 100%;
+    }
+    .sec-btn{
+        padding: 25px;
+        background: #FF900E;
+        position: absolute;
+        margin-left: 30%;
+        border-style: none;
+        border-radius: 5px;
+        top:3750px;
+        color: #FFFFFF;
+    }
+    
+}
+/* 5th part */
+@media screen and (max-width:576px) {
+    .facts{
+       flex-direction: column;
+       margin-left: 20px;
+       width: 50%;
+    
+}
+.fact{
+    text-align: center;
+    margin-top: 150px;
+    width: 50%;
+    
+}
+}
+/* 6th part */
+@media screen and (max-width:576px) {
+   .our{
+          margin-left:15px;
+          width: 50%;
+   }
+    .sponcers{
+        flex-direction: column;
+        margin-left:80px ;
+    }
+   
+        
+    }
+    /* footer */
+    .footer{
+        width: 100%;
+    }
+   
+    
+
+   
+
+    

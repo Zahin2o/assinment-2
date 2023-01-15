@@ -1,7 +1,16 @@
 
 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,500&family=Work+Sans:wght@500&display=swap');
+
+ body{
+    font-family: 'Work Sans', sans-serif;
+
+ }
 
 /* Top er kaj */
+.header{
+    background-color: antiquewhite;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,7 +29,7 @@ ul{
 .btn{
    margin-left: 45%;
    padding: 15px;
-   background-color: chocolate;
+   background: #FF900E;
    border-style: none;
    border-radius: 3px;
 }
@@ -47,10 +56,11 @@ ul{
    margin-top: 100px;
 }
 .f-likha{
-    color: yellow ;
+    color: #FF900E;
+
 }
 .q-likha{
-    color:gray;
+    color: #727272;
 }
 /* 4rth part */
 .love{
@@ -84,11 +94,13 @@ ul{
 }
 .sec-btn{
     padding: 30px;
-    background-color:orange;
+    background: #FF900E;
     position: absolute;
     margin-left: 50%;
     border-style: none;
     border-radius: 5px;
+    top: 1850px;
+    color: #FFFFFF;
 }
 /* some facts section */
 .facts{
@@ -105,11 +117,16 @@ ul{
     text-align: center;
 }
 .facts-one,.facts-two,.facts-three,.facts-four{
-    border: 1px solid orange;
+    border: 1px solid #FF900E;
     padding: 10px;
     border-radius: 4px;
 
 }
+.facts-one:hover,.facts-two:hover,.facts-three:hover,.facts-four:hover{
+    transform:rotate(30deg)
+    
+}
+
 /* sponcer section */
 .our{
     margin-left: 300px;
@@ -122,6 +139,7 @@ ul{
     margin-left: 100px;
     gap: 30px;
     margin-top: 40px;
+    
 }
 /* last */
 .footer{

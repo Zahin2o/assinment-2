@@ -8,6 +8,8 @@
  }
 
 /* Top er kaj */
+
+
 .header{
     background-color: bisque;
 }
@@ -26,6 +28,8 @@ ul{
 /* banner er kaj */
 .banner-title{
     text-align: center;
+    width: 50%;
+    margin-left: 270px;
 }
 .btn{
    margin-left: 10px;
@@ -80,6 +84,8 @@ ul{
 }
 .borders{
   margin-left: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .head-l{
     margin-left: 10px;
@@ -147,6 +153,19 @@ ul{
     text-align: center;
      margin-top: 100px;
 }
+/* extra section */
+.contact{
+    text-align: center;
+    justify-content: center;
+}
+.empl{
+    display: flex;
+    gap: 40px;
+    margin-left: 280px;
+}
+.extra{
+    background-color: aqua;
+}
 
  
 /* mobile device responsive */
@@ -177,6 +196,10 @@ ul{
         margin-top: 7px;
         width: 80vw;
 
+    }
+    .banner-title{
+        margin-left: 20px;
+        width: 90%;
     }
 }
     
@@ -219,7 +242,7 @@ ul{
         margin-left: 30%;
         border-style: none;
         border-radius: 5px;
-        top:3750px;
+        top:4000px;
         color: #FFFFFF;
     }
     
@@ -253,8 +276,17 @@ ul{
         
     }
     /* footer */
-    .footer{
-        width: 100%;
+    @media screen and (max-width:576px){
+       .footer{ width: 100%;}
+    
+    }
+    /* extra */
+    @media screen and (max-width:576px) {
+        .empl{
+            margin-left: 0px;
+            gap: 5px;
+            width: 100%;
+        }
     }
    
     
